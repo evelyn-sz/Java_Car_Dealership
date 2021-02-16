@@ -12,8 +12,8 @@ public class CarTest {
     }
 
     @Test
-    public void engineHasName(){
-        assertEquals("Hybrid", car.getEngineNameFromEnum());
+    public void hasEngineType(){
+        assertEquals(EngineType.HYBRID, car.getEngineType());
     }
 
     @Test

@@ -14,11 +14,7 @@ public class Car {
     public EngineType getEngineType() {
         return engineType;
     }
-
-    public String getEngineNameFromEnum(){
-        return this.engineType.getEngineName();
-    }
-
+    
     public double getPrice() {
         return price;
     }
