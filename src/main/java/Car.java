@@ -14,7 +14,7 @@ public class Car {
     public EngineType getEngineType() {
         return engineType;
     }
-    
+
     public double getPrice() {
         return price;
     }
